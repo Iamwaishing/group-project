@@ -17,3 +17,7 @@
 	cursor: pointer;
 	border: 2px solid #0085A7;
 }
+
+.col-sm {
+	text-align: center;
+}

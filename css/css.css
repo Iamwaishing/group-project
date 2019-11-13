@@ -1,0 +1,11 @@
+.signinupbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.signinupbox table {
+	margin: auto;
+	text-align: center;
+}

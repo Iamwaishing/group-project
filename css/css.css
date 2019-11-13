@@ -1,10 +1,5 @@
 body {
-	background-image: url("../images/bg.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #464646;
+	background-image: url("../images/bg.jpg");
 }
 
 .signinupbox {
@@ -12,7 +7,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	background-color: white;
+	background-color:rgba(255,255,255,0.40);
 }
 
 .signinupbox table {
@@ -31,5 +26,4 @@ body {
 .col-sm {
 	text-align: center;
 	background-color:rgba(255,255,255,0.40);
-	height: 90vh;
 }

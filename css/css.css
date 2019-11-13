@@ -17,7 +17,3 @@
 	cursor: pointer;
 	border: 2px solid #0085A7;
 }
-
-.signbutton:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
-}

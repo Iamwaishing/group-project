@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="images/hotel_icon.ico" type="image/x-icon" />
+<title>Five Demands Hotel Sign In Page</title>
+<link rel="stylesheet" href="css/css.css" type="text/css"/>
+<script type="text/javascript" src="javascript/script.js"></script>
 </head>
 <body>
-	<h1>Sign In</h1>
-		Username: <input type="text" id="loginusername" required><br />
-		Password: <input type="password" id="loginpassword" required><br /><br />
-		<button id="submit">Submit</button>
-		Haven't Sing up? <a href="signup.html">Click here!</a>
-		<script type="text/javascript" src="signinscript.js"></script>
+	<div>
+		<table style="margin: auto;">
+			<tr>
+				<th colspan="2">Sign In</th>
+			</tr>
+			<tr>
+				<td>Username:</td><td><input type="text" id="loginusername" placeholder="Username" required></td>
+			</tr>
+			<tr>
+				<td>Password:</td><td><input type="password" id="loginpassword" placeholder="Password" required></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center"><button id="submit">Submit</button></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center">Haven't Sing up? <a href="signup.html">Click here!</a></td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="signinscript.js"></script>
 </body>
 </html>
